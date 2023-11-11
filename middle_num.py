@@ -41,25 +41,24 @@
 # if kordi() in ['a2','a4','a6','a8','b1','b3','b5','b7','c2','c4','c6','c8','d1','d3','d5','d7','e2','e4','e6','e8','f1','f3','f5','f7','g2','g4','g6','g8','h1','h3','h5','h7']:
 #     print("Клетка с этой координатой белая")
 
-# coordinate = input("введите координату ")
-# буква = coordinate[0]
-# цифра = int(coordinate[1])
+coordinate = input("введите координату ")
+буква = coordinate[0]
+цифра = int(coordinate[1])
 
-# if цифра % 2 == 0 and (буква == "b" or буква == "d" or буква == "f" or буква == "h") :
-#     print("черное")
-# elif цифра % 2 == 0 and (буква == "a" or буква == "c" or буква == "e" or буква == "g"):
-#      print("белое")
+if цифра % 2 == 0 and (буква == "b" or буква == "d" or буква == "f" or буква == "h") :
+    print("черное")
+elif цифра % 2 == 0 and (буква == "a" or буква == "c" or буква == "e" or буква == "g"):
+     print("белое")
+
+
+# num = 8165489
+# count = 0
+
+# for i in range(2,121):
+#     if (num % i == 0):
+#         print(f"число {num} составное.\nОно делится на {i}")
+#         count += 1
+# if (count>0):
+#     print(f"число {num} составное")
 # else:
-#      print("черное")
-
-num = 8165489
-count = 0
-
-for i in range(2,121):
-    if (num % i == 0):
-        print(f"число {num} составное.\nОно делится на {i}")
-        count += 1
-if (count>0):
-    print(f"число {num} составное")
-else:
-    print(f"число {num} простое")
+#     print(f"число {num} простое")
