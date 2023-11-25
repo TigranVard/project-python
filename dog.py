@@ -1,4 +1,4 @@
-35 = int(input())
+x = int(input())
 
 age = 10,4
 age2 = 4
