@@ -14,7 +14,7 @@
 
 # s = 0
 # while True:
-#     n = int(input("Введите число"))
+#   n = int(input("Введите число"))
 #     if n == 0:
 #         break
 #     print("вы ввели число", n)
